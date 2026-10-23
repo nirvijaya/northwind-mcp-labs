@@ -1,0 +1,20 @@
+{
+  "_comment": "Access rules for Northwind's internal knowledge. Module 04 asks you to enforce these.",
+  "doc_rules": {
+    "classification_by_role": {
+      "contractor": ["public"],
+      "employee":   ["public", "internal"],
+      "manager":    ["public", "internal", "confidential"],
+      "admin":      ["public", "internal", "confidential", "restricted"]
+    },
+    "same_department_required_for": ["confidential"],
+    "restricted_rule": "Only admins, or employees whose id is in the doc's allowed_ids, may see restricted docs.",
+    "admins_bypass_department_rule": true
+  },
+  "ticket_rules": {
+    "admin": "all tickets",
+    "contractor": "only tickets they reported or are assigned to",
+    "employee": "tickets in their own department, plus tickets they reported or are assigned to",
+    "manager": "tickets in their own department, plus tickets they reported or are assigned to"
+  }
+}

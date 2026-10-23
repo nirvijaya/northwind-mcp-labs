@@ -1,0 +1,22 @@
+[project]
+name = "northwind-mcp-labs"
+version = "0.1.0"
+description = "Hands-on MCP and Claude API labs for the Claude Certified Developer exam"
+readme = "README.md"
+authors = [
+    { name = "nirvijaya", email = "vijayasekar.nirmal@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "mcp>=1.2.0,<2",       # labs use the 1.x FastMCP API; 2.x renamed it to MCPServer
+    "anthropic>=0.40.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+]
+
+[tool.uv]
+# This is a set of lab exercises, not an installable package.
+package = false

@@ -1,0 +1,15 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Lab output
+logs/
+
+# Secrets — never commit API keys
+.env
+*.key
+
+# macOS
+.DS_Store

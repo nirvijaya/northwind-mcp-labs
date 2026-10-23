@@ -1,0 +1,20 @@
+[
+  {"id": "E001", "name": "Aino Virtanen",   "role": "admin",      "department": "Operations",  "title": "IT Administrator"},
+  {"id": "E002", "name": "Marcus Chen",     "role": "manager",    "department": "Engineering", "title": "Engineering Manager"},
+  {"id": "E003", "name": "Priya Nair",      "role": "employee",   "department": "Engineering", "title": "Software Engineer II"},
+  {"id": "E004", "name": "Jonas Berg",      "role": "employee",   "department": "Engineering", "title": "Site Reliability Engineer"},
+  {"id": "E005", "name": "Sofia Rossi",     "role": "manager",    "department": "HR",          "title": "Head of People"},
+  {"id": "E006", "name": "Liam O'Connor",   "role": "employee",   "department": "HR",          "title": "People Partner"},
+  {"id": "E007", "name": "Hana Sato",       "role": "manager",    "department": "Finance",     "title": "Finance Director"},
+  {"id": "E008", "name": "David Okafor",    "role": "employee",   "department": "Finance",     "title": "Accountant"},
+  {"id": "E009", "name": "Elena Petrova",   "role": "manager",    "department": "Sales",       "title": "Head of Sales"},
+  {"id": "E010", "name": "Tom Fischer",     "role": "employee",   "department": "Sales",       "title": "Account Executive"},
+  {"id": "E011", "name": "Mei Lin",         "role": "manager",    "department": "Operations",  "title": "Warehouse Operations Manager"},
+  {"id": "E012", "name": "Carlos Mendez",   "role": "employee",   "department": "Operations",  "title": "Warehouse Lead"},
+  {"id": "E013", "name": "Fatima Haddad",   "role": "employee",   "department": "Engineering", "title": "Software Engineer I"},
+  {"id": "E014", "name": "Noah Williams",   "role": "employee",   "department": "Sales",       "title": "Sales Development Rep"},
+  {"id": "E015", "name": "Ingrid Larsen",   "role": "employee",   "department": "Finance",     "title": "Payroll Specialist"},
+  {"id": "C101", "name": "Alex Kim",        "role": "contractor", "department": "Engineering", "title": "Contract Frontend Developer"},
+  {"id": "C102", "name": "Ravi Patel",      "role": "contractor", "department": "Operations",  "title": "Contract Forklift Operator"},
+  {"id": "C103", "name": "Julia Novak",     "role": "contractor", "department": "Sales",       "title": "Contract Sales Consultant"}
+]
